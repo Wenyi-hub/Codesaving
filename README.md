@@ -2,7 +2,7 @@
 
 ---
 
-1. [doping program](C:\Users\wywu\OneDrive\文档\代码\Electronic tranport.py)，如何读取文件，数据预处理的一些代码。
+1. [doping program](C:\Users\wywu\OneDrive\文档\代码\Electronic_tranport.py)，如何读取文件，数据预处理的一些代码。
 
 2. [I-V curve](C:\Users\wywu\OneDrive - RLS ,inc\JOB\Data\PhD DATA\Transportation\InSe\2019_12_26_InSe-236)，设置十字坐标系，线条颜色渐变。
 
