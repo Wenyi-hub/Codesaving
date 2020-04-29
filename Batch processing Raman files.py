@@ -78,17 +78,3 @@ for i in f:
 plt.show()
 
 plt.close()
-'''
-pca = PCA(n_components = 0.5)
-pca.fit([y])
-y_reduction = pca.transform([y])
-y_restore = pca.inverse_transform(y_reduction)
-x =np.arange(min(x), max(x), ((max(x)-min(x))/y_restore.size))
-y = np.array(y_restore)
-#plt.plot(x, y[0],)
-'''
-
-
-
-
-
