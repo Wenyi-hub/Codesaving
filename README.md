@@ -16,11 +16,10 @@
 
 4. 以[Raman](https://github.com/Wenyi-hub/Codesaving/blob/master/BatchProcessingRamanFiles.py)以及[Hall](https://github.com/Wenyi-hub/Codesaving/blob/master/BatchProcessingHallFiles.py)为例，同时处理多个.txt文件，输出多条数据，包含了读取该文件夹地址，读取一个文件夹内多个文件的代码。
 
-5. [同时处理多个.txt文件]
+5. [Hall测试](C:\Users\wywu\OneDrive\文档\代码\HallMeasurement.py)，清洗数据的时候将噪点赋空值（还没有实现）。
 
-6. [Hall测试](C:\Users\wywu\OneDrive\文档\代码\HallMeasurement.py)，清洗数据的时候将噪点赋空值（还没有实现）。
+6. [将一个文件夹里的图片写入到ppt中](https://github.com/Wenyi-hub/Codesaving/blob/master/WriteImageIntoPptx.py)
 
-7. [将一个文件夹里的图片写入到ppt中](https://github.com/Wenyi-hub/Codesaving/blob/master/WriteImageIntoPptx.py)
+7. [AFM](C:\Users\wywu\OneDrive\文档\代码)，包含了倒序列表的方法，图片中插入文本的方法。
 
-8. [AFM](C:\Users\wywu\OneDrive\文档\代码)，包含了倒序列表的方法，图片中插入文本的方法。
-
+   ---
