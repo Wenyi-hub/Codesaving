@@ -11,10 +11,6 @@ left = top = Cm(3)
 height = Cm(5)
 pic = slide.shapes.add_picture("demo.png",left,top,height = height)
 
-left = Cm(5)
-top = Cm(5)
-height = Cm(5.5)
-
 pic = slide.shapes.add_picture("demo.png",left,top,height)
 
 prs.save('<filename.filetype>')
