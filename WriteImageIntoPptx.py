@@ -1,14 +1,20 @@
 import os
-from pptx import Presentation 
-from pptx.util import Inches
+os.chdir("<filename.filetype>")
+from pptx import Presentation
+from pptx.util import Cm
 
-img_path = os.getcwd() + '\\6.RdeT-6-3-Annealing.svg'
+prs = Presentation()
+bullet_slide_layout = prs.slide_layouts[6]
+slide = prs.slides.add_slide(bullet_slide_layout)
 
-prs = Presentation() 
-blank_slide_layout = prs.slide_layouts[6] 
-slide = prs.slides.add_slide(blank_slide_layout)
-print(os.getcwd())
-print(img_path)
-left = top = Inches(1)
-pic = slide.shapes.add_picture(img_path, left, top) 
-prs.save('test.pptx')
+left = top = Cm(3)
+height = Cm(5)
+pic = slide.shapes.add_picture("demo.png",left,top,height = height)
+
+left = Cm(5)
+top = Cm(5)
+height = Cm(5.5)
+
+pic = slide.shapes.add_picture("demo.png",left,top,height)
+
+prs.save('<filename.filetype>')
