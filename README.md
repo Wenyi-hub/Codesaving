@@ -3,10 +3,9 @@
 ---
 
 <center>
-
 <img src = 'https://raw.githubusercontent.com/Wenyi-hub/ImageCloudSaving/master/image/Interior-of-a-Kitchen-1815-Martin-Drolling-oil-painting-1.jpg'
-style = 1%
-alig = center>
+style = '1%'
+alig = center/>
 
 </center>
 

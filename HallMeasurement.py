@@ -41,6 +41,8 @@ fig = plt.figure()
 
 RH = (np.array (Ra) + np.array(Rb))/2
 #plt.ylim()
+plt.rcParams['xtick.direction'] = 'in'
+plt.rcParams['ytick.direction'] = 'in'
 plt.plot(B, RH, 'o')
 
 ### image output ###
