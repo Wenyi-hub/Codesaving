@@ -16,7 +16,7 @@ fig = plt.figure()
 
 for i in f:
     #print(i)
-    with open(os.getcwd()+i) as file:
+    with open(os.getcwd() + i) as file:
         next(file) # The text in the first line is skipped, and it will not be read again below. I should find a simple skip, Just skip not delete .
         lines = file.readlines()
     data = []
