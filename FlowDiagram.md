@@ -1,4 +1,4 @@
-# InSe-76 Flow Diagram
+# Flow Diagam
 
 ```flow
 st=>start: Start
