@@ -1,17 +1,5 @@
 # Flow Diagam
 
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-
-```
-
 ```sequence{theme = "simple"}
 Andrew->China: Says Hello
 Note right of China: China thinks\nabout it
@@ -25,6 +13,18 @@ A->B: Normal line
 B-->C: Dashed line
 C->>D: Open arrow
 D-->>A: Dashed open arrow
+```
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+
 ```
 
 ```flow
