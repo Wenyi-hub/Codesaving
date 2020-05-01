@@ -28,6 +28,8 @@ style = 'zoom:50%'/></center>
 
    > Python os.chdir() 方法，可以改变当前路径到指定地址`os.chdir(path)`
 
-7. [AFM]([C:\Users\wywu\OneDrive\文档\代码](https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py))，包含了倒序列表的方法，图片中插入文本的方法。
+7. [AFM]((https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py))，包含了倒序列表的方法，图片中插入文本的方法。
+
+8. [流程图](https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py), 这个文件夹中收集了一些流程图绘制流程图的例子. 可以使用.gv, .md也可用Python调用Graphviz绘制流程图.
 
 ---
