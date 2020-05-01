@@ -1,0 +1,16 @@
+
+digraph {
+	A [label="Start"]
+	B [label="n-doping at 400K"]
+	C [label="Hall test under
+	n-doping at 400K"]
+	D [label="Hall test under
+	p-dipong at 295K"]
+	E [label="p-doping at 400K"]
+	F [label="End"]
+	A -> B [label=Annealing]
+	B -> C [label=Keeping]
+	C -> D [label=Cooling]
+	D -> E [label=Reannealing]
+	E -> F
+}
