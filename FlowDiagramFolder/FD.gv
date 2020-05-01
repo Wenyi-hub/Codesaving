@@ -8,7 +8,7 @@ ratio = "auto" ;
 mincross = 2.0 ;
 label = "Pedigree Lion_Share" ;
 
-"001" [shape=box     , regular=1,style=filled,fillcolor=white   ] ;
+"001" [shape=box     , regular=1,style=filled,fillcolor=lightblue   ] ;
 "002" [shape=box     , regular=1,style=filled,fillcolor=white   ] ;
 "003" [shape=circle  , regular=1,style=filled,fillcolor=white   ] ;
 "004" [shape=box     , regular=1,style=filled,fillcolor=white   ] ;
@@ -37,7 +37,7 @@ label = "Pedigree Lion_Share" ;
 "024" [shape=box     , regular=1,style=filled,fillcolor=white   ] ;
 "027" [shape=circle  , regular=1,style=filled,fillcolor=white   ] ;
 "026" [shape=box     , regular=1,style=filled,fillcolor=white   ] ;
-"028" [shape=box     , regular=1,style=filled,fillcolor=grey    ] ;
+"028" [shape=box     , regular=1,style=filled,fillcolor=lightgrey    ] ;
 "marr0001" [shape=diamond,style=filled,label="",height=.1,width=.1] ;
 "001" -> "marr0001" [dir=none,weight=1] ;
 "007" -> "marr0001" [dir=none,weight=1] ;
