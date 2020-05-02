@@ -2,13 +2,35 @@
 
 ---
 
-<center>
-<img src = 'https://raw.githubusercontent.com/Wenyi-hub/ImageCloudSaving/master/image/Interior-of-a-Kitchen-1815-Martin-Drolling-oil-painting-1.jpg'
+<center><img src = 'https://raw.githubusercontent.com/Wenyi-hub/ImageCloudSaving/master/image/Interior-of-a-Kitchen-1815-Martin-Drolling-oil-painting-1.jpg'
 style = 'zoom:50%'/></center>
 
-
-
 1. [doping program](https://github.com/Wenyi-hub/Codesaving/blob/master/ElectronicTranport.py)，如何读取文件，数据预处理的一些代码。
+
+   > 可以通过设置`plt.style.use('')`命令, 改变输出图片的样式. 各种输出风格如下:</br>
+   `'seaborn-deep'`
+   `'seaborn-muted'`
+   `'bmh'`
+   `'seaborn-white'`
+   `'dark_background'`
+   `'seaborn-notebook'`
+   `'seaborn-darkgrid'`
+   `'grayscale'`
+   `'seaborn-paper'`
+   `'seaborn-talk'`
+   `'seaborn-bright'`
+   `'classic'`
+   `'seaborn-colorblind'`
+   `'seaborn-ticks'`
+   `'ggplot'`
+   `'seaborn'`
+   `'_classic_test'`
+   `'fivethirtyeight'`
+   `'seaborn-dark-palette'`
+   `'seaborn-dark'`
+   `'seaborn-whitegrid'`
+   `'seaborn-pastel'`
+   `'seaborn-poster'`
 
 2. [I-V curve]()，设置十字坐标系，线条颜色渐变。
 
@@ -26,7 +48,7 @@ style = 'zoom:50%'/></center>
 
 6. [将一个文件夹里的图片写入到ppt中](https://github.com/Wenyi-hub/Codesaving/blob/master/WriteImageIntoPptx.py)
 
-   > Python os.chdir() 方法，可以改变当前路径到指定地址`os.chdir(path)`
+   > `Python os.chdir()` 方法，可以改变当前路径到指定地址`os.chdir(path)`
 
 7. [AFM]((https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py))，包含了倒序列表的方法，图片中插入文本的方法。
 
