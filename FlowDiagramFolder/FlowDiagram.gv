@@ -1,7 +1,7 @@
 
 digraph {
 	A [label="Start"]
-	B [label="n-doping at 400K"]
+	B [label="Intrinsic Hall test at 400"]
 	C [label="Hall test under
 	n-doping at 400K"]
 	D [label="Hall test under
