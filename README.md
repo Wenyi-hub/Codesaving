@@ -57,4 +57,6 @@ style = 'zoom:50%'/></center>
 
 8. [流程图](https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py), 这个文件夹中收集了一些流程图绘制流程图的例子. 可以使用.gv, .md也可用Python调用Graphviz绘制流程图.
 
+9. [线性回归并且求斜率截距]
+
 ---
