@@ -77,8 +77,26 @@ plt.ylim(min(I)*1.1, max(I)*1.1)
 #plt.text(0.5, 1.5e-8, 'Backward', c= "tab:blue")   
 #plt.text(-2, 2.5e-8, '$V_{G1}=+2\,\mathrm{V}, V_{G2}=-2\,\mathrm{V}$', c= "k")   
 
-#plt.xlabel("$V_{DS}\,\mathrm{(V)}$")
-#plt.ylabel('$I_{DS}\,\mathrm{(A)}$')
+T=np.array(T)
+ax = fig.add_subplot()
+ax.tick_params(direction='in')
+
+points = np.array([Vds, I]).T.reshape(-1, 1, 2)
+segments = np.concatenate([points[:-1], points[1:]], axis=1)
+
+# Create a continuous norm to map from data points to colors
+norm = plt.Normalize(min(T), max(T))
+lc = LineCollection(segments, cmap='viridis')##viridis##
+# Set the values used for colormapping
+lc.set_array(T)
+line = ax.add_collection(lc)
+lc.set_linewidth(.5)
+fig.colorbar(line)
+plt.xlim(-1, 1)
+plt.ylim(min(I), max(I))
+
+plt.xlabel("$V_{DS}\,\mathrm{(V)}$")
+plt.ylabel('$I_{DS}\,\mathrm{(A)}$')
 
 #图片输出
 plt.savefig('<filename>.svg')
