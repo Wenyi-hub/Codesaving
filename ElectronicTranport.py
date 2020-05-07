@@ -32,12 +32,26 @@ T = []
 Vg = []
 Ig = []
 Rs = []
+R0 = []
+R1 = []
+R2 = []
+R3 = []
+R4 = []
+R5 = []
+f = []
 for c in b:
     Time.append(c[0])
     T.append(c[1])
     Vg.append(c[2])
     Ig.append(c[3])
     Rs.append(c[len(a)-1])
+    f.append(c[len(a)-2])
+    R4.append(c[len(a)-4])
+    R5.append(c[len(a)-3])
+    R3.append(c[len(a)-5])
+    R2.append(c[len(a)-6])
+    R1.append(c[len(a)-7])
+    R0.append(c[len(a)-8])
 
 ### Do some processing on the timestamp, it can be used as a parameter plotting ###
 Time[:] = [(x - Time[0])/3600000 for x in Time]
@@ -81,6 +95,31 @@ ax4.tick_params(axis='y', labelcolor=color, direction = 'in')
 
 ### image output ###
 fig.tight_layout() # 'otherwise the right y-label is slightly clipped' I just copy this but haven't found it worked 
+
+fig = plt.figure()
+plt.style.use('ggplot')
+ax = fig.add_subplot(2,4,1)
+plt.plot(Time, f)
+plt.title('$f$')
+plt.ylim(0.6,1.2)
+ax = fig.add_subplot(2,4,2)
+plt.plot(Time, R0, 'b')
+plt.title('$R_0$')
+ax = fig.add_subplot(2,4,3)
+plt.plot(Time, R1, 'g')
+plt.title('$R_1$')
+ax = fig.add_subplot(2,4,4)
+plt.plot(Time, R2, 'r')
+plt.title('$R_2$')
+ax = fig.add_subplot(2,4,6)
+plt.plot(Time, R3, 'c')
+plt.title('$R_3$')
+ax = fig.add_subplot(2,4,7)
+plt.plot(Time, R4, 'm')
+plt.title('$R_4$')
+ax = fig.add_subplot(2,4,8)
+plt.plot(Time, R5, 'y')
+plt.title('$R_5$')
 
 #plt.savefig('<filename>.svg') # Seleting prefer file type   
 plt.show()
