@@ -1,16 +1,14 @@
 
 digraph {
-	A [label="Start"]
-	B [label="Intrinsic Hall test at 400"]
-	C [label="Hall test under
-	n-doping at 400K"]
-	D [label="Hall test under
-	p-dipong at 295K"]
-	E [label="p-doping at 400K"]
-	F [label="End"]
-	A -> B [label=Annealing]
-	B -> C [label=Keeping]
-	C -> D [label=Cooling]
-	D -> E [label=Reannealing]
-	E -> F
+	A [label="Hall test\n before Annealing"]
+	B [label="n-doping with 100V"]
+	C [label="Hall test under\nn-doping at 275K"]
+	D [label="p-doping with -200V"]
+	E [label="Hall test after\np-doping at 285K"]
+	F [label="Hall test after\np-doping at 400K\nunder -285V"]
+	A -> B [label="	Annealing at 400K"]
+	B -> C [label="	Quenching to 3K\nand return to\nroom temperature"]
+	C -> D [label="	Annealing"]
+	D -> E [label="	Cooling down"]
+	E -> F [label="	Repeat p-doping\nwith -285V"]
 }

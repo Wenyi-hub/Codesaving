@@ -1,6 +1,5 @@
 # InSe-76 Flow Diagram
 
-<center>
 
 ```flow
 st=>start: Start
@@ -16,5 +15,13 @@ cond(no)->op1
 
 ```
 
-
+```mermaid
+stateDiagram
+Start --> ["Hall test before annealing"]
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
 
