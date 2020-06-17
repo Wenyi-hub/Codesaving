@@ -84,12 +84,32 @@ style = 'zoom:50%'/></center>
 
 6. [将一个文件夹里的图片写入到ppt中](https://github.com/Wenyi-hub/Codesaving/blob/master/WriteImageIntoPptx.py)
 
-   > `Python os.chdir()` 方法，可以改变当前路径到指定地址`os.chdir(path)`
+```python
+import  os
+Python os.chdir()
+#方法，可以改变当前路径到指定地址>
+os.chdir(path)
+```
+   >
+   > 在路径前加`r`可以防止转义。
 
-7. [AFM]((https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py))，包含了倒序列表的方法，图片中插入文本的方法。
+7. [AFM]((https://github.com/Wenyi-hub/Codesaving/blob/220929806b8222f063cc7b320366540e2d146f83/AFM.py))，包含了倒序列表的方法（`[::-1]`），图片中插入文本的方法。
+
 
 8. [流程图](FlowDiagramFolder), 这个文件夹中收集了一些流程图绘制流程图的例子. 可以使用.gv, .md也可用Python调用Graphviz绘制流程图.
 
 9. [线性回归并且求斜率截距 例子1](https://github.com/Wenyi-hub/Codesaving/blob/0f1076df2d21f1e75f4a2f0c7fea16dbf9fbbc8c/LinearFitting.py)和[线性回归并且求斜率截距 例子2](https://github.com/Wenyi-hub/Codesaving/blob/c1d77a588ea18565fd0c960f78bf612414ae9495/Fitting.py)
 
+10. 使用numpay和pandas。
+
+使用pandas读取.txt文件、读取的数据生成DataFrame、转存Excel。
+```python
+import pandas as pd
+
+df = pd.read_table(r'<filename>.txt')
+df = pd.DataFrame(df)
+df.to_excel(r'<filename>.xlsx')
+#相关参数可以在使用的时候自行设置
+```
 ---
+
