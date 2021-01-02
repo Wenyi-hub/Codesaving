@@ -103,6 +103,7 @@ os.chdir(path)
 10. 使用numpay和pandas。
 
 使用pandas读取.txt文件、读取的数据生成DataFrame、转存Excel。
+
 ```python
 import pandas as pd
 
@@ -111,5 +112,8 @@ df = pd.DataFrame(df)
 df.to_excel(r'<filename>.xlsx')
 #相关参数可以在使用的时候自行设置
 ```
+
+11. 使用 Python 的 reportlab 库将 SVG格式转化为其他格式（比inkscape多一个jpg格式）。[SVG convert to other format](SVG%20convert%20to%20other%20format.py)
+
 ---
 
