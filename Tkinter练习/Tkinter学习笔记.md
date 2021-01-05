@@ -17,7 +17,7 @@ Tkinter是Python与Tk的接口，Tcl/Tk的GUI工具箱。
 
 Tkinter的接口是作为一个Python组件Tkinter.py来实现的。在许多情况下，Tkinter程序不需要关注Tcl/Tk的实现，，因为Tkinter可作为独立的Python的扩展来看待。
 
-[计算器示例1]()
+[计算器示例1](https://github.com/Wenyi-hub/Codesaving/blob/master/Tkinter%E7%BB%83%E4%B9%A0/3.0%E8%AE%A1%E7%AE%97%E5%99%A81.py)
 
 [计算器示例2](D:\Onedrive\OneDrive\文档\代码\Tkinter练习\3.1计算器2.py)
 
