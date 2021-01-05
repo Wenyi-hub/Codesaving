@@ -19,5 +19,19 @@ Tkinter的接口是作为一个Python组件Tkinter.py来实现的。在许多情
 
 [计算器示例1](https://github.com/Wenyi-hub/Codesaving/blob/master/Tkinter%E7%BB%83%E4%B9%A0/3.0%E8%AE%A1%E7%AE%97%E5%99%A81.py)
 
-[计算器示例2](D:\Onedrive\OneDrive\文档\代码\Tkinter练习\3.1计算器2.py)
+[计算器示例2](https://github.com/Wenyi-hub/Codesaving/blob/52505e2e4c24262d00d26ca003114a59aad6ec24/Tkinter%E7%BB%83%E4%B9%A0/3.1%E8%AE%A1%E7%AE%97%E5%99%A82.py)
 
+<!-- pagebreak -->
+
+## 第三章 建立一个应用
+
+### 3.3 检查应用结构
+
+Tkinter 为应用提供了大量的结构，输入 Tkinter 建立了系统的基础对象，并且只需增加一点代码即可演示图形用户界面。
+
+[实际上可以写成的最少的Tkinter码](https://github.com/Wenyi-hub/Codesaving/blob/master/Tkinter%E7%BB%83%E4%B9%A0/3.3%E5%AE%9E%E9%99%85%E4%B8%8A%E5%8F%AF%E4%BB%A5%E5%86%99%E6%88%90%E7%9A%84%E6%9C%80%E5%B0%91%E7%9A%84Tkinter%E7%A0%81.py)
+
+> 标签控件被用pack方法实现\
+> 启动Tkinter时间的循环则需要靠mainloop来实现
+
+![应用结构]()
