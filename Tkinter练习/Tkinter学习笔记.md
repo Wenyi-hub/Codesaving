@@ -20,7 +20,7 @@ Tkinter的接口是作为一个Python组件Tkinter.py来实现的。在许多情
 计算器示例1:
 
 ```python
-#Calcl.py 
+#Calcl.py
 from tkinter import *
 
 def frame(root, side):
@@ -69,3 +69,6 @@ class Calculator(Frame):
 if __name__ == '__main__':
     Calculator().mainloop()
 ```
+
+[计算器示例2](D:\Onedrive\OneDrive\文档\代码\Tkinter练习\3.1 计算器2.py)
+
